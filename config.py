@@ -17,8 +17,10 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
-#Database 
-DB_URI = os.environ.get("DATABASE_URL", "")
+# Database Information
+DB_URI = environ.get("DB_URI", "singhlovepreet05198")
+DB_NAME = environ.get("DB_NAME", "mongodb+srv://singhlovepreet05198:K6wo5uVJ1PmKl2Li@lkdfilesharing.j5g5msi.mongodb.net/?retryWrites=true&w=majority&appName=LKDFILESHARING")
+
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
