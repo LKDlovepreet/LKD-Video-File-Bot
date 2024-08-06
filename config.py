@@ -77,4 +77,4 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "crooked-tera-lkdfilesharing01-287cd0a2.koyeb.app/")
+URL = environ.get("URL", "teenage-rhoda-lkdfilesharing01-f8d8b347.koyeb.app/")
